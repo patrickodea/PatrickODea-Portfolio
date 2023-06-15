@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: serif;
+    color: white;
+}
+
+.header {
+    background-color: #F56600;
+    padding: 35px;
+    
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 45px;
+    margin-left: 60px;
+}
+
+.header nav {
+    float: right;
+    margin-right: 60px;
+    padding-top: 13px;
+}
+
+.header nav li {
+    display: inline-block;
+    font-size: 22px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+a{
+    color: white;
+   text-decoration: none;
+}
+
