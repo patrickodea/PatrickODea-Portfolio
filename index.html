@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Patrick O'Dea Dev Protfolio</title>
+    <title>Patrick O'Dea Web Dev Protfolio</title>
 </head>
 
 <body>
-    <header class="header">
+    <header>
         <h1>Patrick O'Dea</h1>
         <nav>
             <li><a href="#about-me">About Me</a></li>
@@ -17,14 +19,51 @@
         </nav>
     </header>
 
-    <section>
+    <section class="hero" id="about-me">
+        <img src="assets/images/Me.PNG" alt="photo of me"/>
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>Hello my name is Patrick O'Dea.  Welcome to my Web Development Portfolio page!
+               I started coding in Jun 2023, learning how to use HTML, CSS, and Javascript to build Webpages.
+               I plan to continue to update this webpage as my skills continue to evolve.  I currently live
+               in Salt Lake City, UT, and love to hike, ski, play soccer, play videogames, and explore new places.
+               I originally graduated from Clemson University with a BS in Biological Sciences, but decided the tech
+               industry is where I feel the most passionate at; and love learning everything there is about web development.
+               Feel free to take a look at some of my projects down below!  
+            </p>
+        </div>    
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="project-title">Projects</h2>
+        <div class="projectcontainer">
+            <div>
+                <a href="https://patrickodea.github.io/Refactoring-Marketing-Site/">
+                <img src="assets/images/html.jpg" alt="html" class="htmlpic">
+                </a>
+                <h3>Refactoring Code (HTML)</h3>  
+            </div>
         <div>
-            <div id="about-me">
-                <h2>About Me</h2>
+            <div>
+                <a href="">
+                <img src="assets/images/css.jpg" alt="css" class="csspic">
+                </a>
+                <h3>My Portfolio (CSS)</h3>  
             </div>
-            <div id="projects">
-<h2>Projects</h2>
+        
+            <div>
+                <a href="">
+                <img src="assets/images/javascript.png" alt="jspic" class="jspic">
+                </a>
+                <h3>Password Checker (JavaScript) </h3>  
             </div>
+        </div>
+        </div>
+    </section>        
+
+
+
+
             <div id="contact-info">
 <h2>Contact Me</h2>
             </div>
