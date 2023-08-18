@@ -151,6 +151,12 @@ h3{
     box-shadow: 5px 7px 25px rgb(117, 130, 0);
 }
 
+.projectpic{
+    height: 250px;
+    width: 400px;
+    margin-top: 16px;
+    margin-left: 100px;
+}
 /*Project Title Styling (could not figure out flex for this)*/
 .project-title{
     display: flex;
