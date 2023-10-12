@@ -157,6 +157,13 @@ h3{
     margin-top: 16px;
     margin-left: 100px;
 }
+
+.projectpic2{
+    height: 250px;
+    width: 400px;
+    margin-top: 16px;
+    margin-left: 100px;
+}
 /*Project Title Styling (could not figure out flex for this)*/
 .project-title{
     display: flex;
